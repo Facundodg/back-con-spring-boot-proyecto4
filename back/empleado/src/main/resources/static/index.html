@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<title>Empleados</title>
+</head>
+<body>
+
+	<header>
+
+		<div>
+				
+			<div>
+				
+				<h1>Mis Empleados</h1>
+
+			</div>
+
+
+		</div>
+		
+
+	</header>
+
+	<!--Mis empleados-->
+
+	<div class="contenedor">
+
+		<div class="contenedor-formulario">
+
+			<h2>Ingresa un Empleado</h2>
+			
+			<form>
+
+				<label>Nombre y Apellido</label>
+				<input type="text" name="">
+				<br></br>
+
+				<label>Sueldo</label>
+				<input type="text" name="">
+				<br></br>
+
+				<label>Año</label>
+				<input type="text" name="">
+				<br></br>
+
+				<button><strong>Registrar Empleado</strong></button>
+
+			</form>
+
+		</div>
+
+		<div class="contenedor-tabla">
+
+
+			<div class="buscador-empleado">
+
+				<label>Buscar Empleado</label>
+
+				<input type="text" name="">
+
+				<label class="cant_empleados">Cantidad de Empleados:</label>
+
+
+			</div>
+
+
+			<table id="empleados">
+
+				<thead>
+
+					<tr>
+
+						<td class="titulos-columnas">Id</td>
+						<td class="titulos-columnas">Nombre y apellido</td>
+						<td class="titulos-columnas">Sueldo</td>
+						<td class="titulos-columnas">Años de Ingreso</td>
+						<td class="titulos-columnas">Opciones</td>
+
+					</tr>
+
+				</thead>
+
+				<tbody>
+
+					<tr>
+
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="botones"><button> <img src="img/eliminar.png" height ="32" width="32" /></button><button><img src="img/modificar.png" height ="32" width="32" /></button></td>
+
+					</tr>
+
+				</tbody>
+
+			</table>
+
+
+		</div>
+
+	</div>
+	<div class="contenedor-usuario">
+
+		<div class="contenedor-formulario">
+
+			<h2>Ingresa un Usuario</h2>
+
+			<form>
+
+				<label>Nombre de usuario</label>
+				<input type="text" name="">
+				<br></br>
+
+				<label>Correo Electronico</label>
+				<input type="text" name="">
+				<br></br>
+
+				<label>Contraseña</label>
+				<input type="password" name="">
+				<br></br>
+
+				<label>Verificar Contraseña</label>
+				<input type="password" name="">
+				<br></br>
+
+				<button><strong>Registrar Usuario</strong></button>
+
+			</form>
+
+		</div>
+
+		<div class="conteiner-tabla">
+
+			<div class="contenedor-tabla-usario">
+
+				<table id="usuarios">
+
+					<thead>
+
+					<h2>tabla usuarios</h2>
+
+					<tr>
+
+						<td class="titulos-columnas">Id</td>
+						<td class="titulos-columnas">Usuario</td>
+						<td class="titulos-columnas">Email</td>
+						<td class="titulos-columnas">Contraseña</td>
+						<td class="titulos-columnas">Opciones</td>
+
+					</tr>
+
+					</thead>
+
+					<tbody>
+
+					<tr>
+
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="botones"><button> <img src="img/eliminar.png" height ="32" width="32" /></button><button><img src="img/modificar.png" height ="32" width="32" /></button></td>
+
+					</tr>
+
+					</tbody>
+
+				</table>
+
+				</div>
+
+		</div>
+
+	</div>
+
+	<!--footer-->
+
+	<footer>
+		
+
+
+	</footer>
+
+
+	<script src="js/empleados.js"></script>
+	<script src="js/usuario.js"></script>
+
+</body>
+</html>

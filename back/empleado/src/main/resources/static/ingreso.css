@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background-color: #FFFFFF;
+
+}
+
+.contenedor{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 800px;
+
+}
+
+.contenedor-ingreso{
+
+	border: 1px solid black;
+	width: 300px;
+	height: 200px;
+	padding: 15px;
+	box-shadow: 10px 5px 5px black;
+	background-color: #CDCDCD;
+
+}
+
+.contenedor-ingreso h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.contenedor-ingreso input{
+
+	float: right;
+
+}
+
+button{
+
+	padding: 15px;
+
+}
+
+.boton-ingreso{
+
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+
+}
+
+.boton-ingreso button{
+
+	padding: 10px;
+
+}
+
+
+.registrar-cuenta{
+
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
